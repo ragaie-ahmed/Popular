@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:shopping_app/core/App/AppConstatnt.dart';
+import 'package:Popular/core/App/AppConstatnt.dart';
 class ImagePreview extends StatefulWidget {
    ImagePreview({super.key,required this.path,required this.width,required this.height});
 String path;
@@ -18,6 +18,7 @@ class _ImagePreviewState extends State<ImagePreview> {
         backgroundColor: Colors.teal,
         iconTheme: IconThemeData(color: Colors.white),
         actions: [
+          IconButton(onPressed: (){}, icon:Icon(Icons.download),color: Colors.white,)
         ],
       ),
       body: SingleChildScrollView(

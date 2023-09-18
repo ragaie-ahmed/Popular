@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shopping_app/features/domain/model/PopularModel.dart';
+import 'package:Popular/features/domain/model/PopularModel.dart';
 
 class NameAuthor extends StatelessWidget {
    NameAuthor({

@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:developer';
 import 'package:http/http.dart' as http;
-import 'package:shopping_app/features/domain/model/PopularImage.dart';
-import 'package:shopping_app/features/domain/model/PopularModel.dart';
-import 'package:shopping_app/features/domain/model/Popularinfo.dart';
+import 'package:Popular/features/domain/model/PopularImage.dart';
+import 'package:Popular/features/domain/model/PopularModel.dart';
+import 'package:Popular/features/domain/model/Popularinfo.dart';
 
 class PopularRequest {
   static void getPopular({

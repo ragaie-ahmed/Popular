@@ -1,8 +1,8 @@
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shopping_app/features/data/cubit/PopularImage/popular_image_state.dart';
-import 'package:shopping_app/features/data/request/Popular_Request.dart';
-import 'package:shopping_app/features/domain/model/PopularImage.dart';
+import 'package:Popular/features/data/cubit/PopularImage/popular_image_state.dart';
+import 'package:Popular/features/data/request/Popular_Request.dart';
+import 'package:Popular/features/domain/model/PopularImage.dart';
 
 class PopularImageCubit extends Cubit<PopularImageState> {
   PopularImageCubit() : super(PopularImageInitial());

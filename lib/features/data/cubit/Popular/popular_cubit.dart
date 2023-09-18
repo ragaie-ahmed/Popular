@@ -1,9 +1,9 @@
 
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shopping_app/features/data/cubit/Popular/popular_state.dart';
-import 'package:shopping_app/features/data/request/Popular_Request.dart';
-import 'package:shopping_app/features/domain/model/PopularModel.dart';
+import 'package:Popular/features/data/cubit/Popular/popular_state.dart';
+import 'package:Popular/features/data/request/Popular_Request.dart';
+import 'package:Popular/features/domain/model/PopularModel.dart';
 
 class PopularCubit extends Cubit<PopularState> {
   PopularCubit() : super(PopularInitial());

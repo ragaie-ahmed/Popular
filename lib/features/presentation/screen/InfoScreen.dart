@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shopping_app/core/App/AppConstatnt.dart';
-import 'package:shopping_app/features/data/cubit/Popular/popular_cubit.dart';
-import 'package:shopping_app/features/data/cubit/Popularinfo/popular_info_cubit.dart';
-import 'package:shopping_app/features/data/cubit/Popularinfo/popular_info_state.dart';
-import 'package:shopping_app/features/data/request/Popular_Request.dart';
-import 'package:shopping_app/features/domain/model/PopularModel.dart';
-import 'package:shopping_app/features/presentation/screen/Imagepreview.dart';
+import 'package:Popular/core/App/AppConstatnt.dart';
+import 'package:Popular/features/data/cubit/Popular/popular_cubit.dart';
+import 'package:Popular/features/data/cubit/Popularinfo/popular_info_cubit.dart';
+import 'package:Popular/features/data/cubit/Popularinfo/popular_info_state.dart';
+import 'package:Popular/features/data/request/Popular_Request.dart';
+import 'package:Popular/features/domain/model/PopularModel.dart';
+import 'package:Popular/features/presentation/screen/Imagepreview.dart';
 
 class InfoScreen extends StatefulWidget {
   InfoScreen({super.key, required this.id});

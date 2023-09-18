@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shopping_app/features/data/cubit/Popular/popular_cubit.dart';
-import 'package:shopping_app/features/data/cubit/Popular/popular_state.dart';
-import 'package:shopping_app/features/presentation/screen/InfoScreen.dart';
-import 'package:shopping_app/features/presentation/widget/NameAuthor.dart';
+import 'package:Popular/features/data/cubit/Popular/popular_cubit.dart';
+import 'package:Popular/features/data/cubit/Popular/popular_state.dart';
+import 'package:Popular/features/presentation/screen/InfoScreen.dart';
+import 'package:Popular/features/presentation/widget/NameAuthor.dart';
 
 
 class HomeScreen extends StatefulWidget {
